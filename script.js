@@ -43,7 +43,7 @@ class GAME {
             ctx.font = "50px Arial";
             ctx.fillStyle = "white";
             ctx.textAlign = "center";
-            ctx.fillText(" || Paused lives-remaining:" + this.lives, this.gameWidth / 2, this.gameHeight / 2);
+            ctx.fillText(" || Paused lives-remaining:" + this.lives+"Press esc", this.gameWidth / 2, this.gameHeight / 2);
         }
         else if (this.gamestate == GAMESTATE.menu) {
             ctx.rect(0, 0, this.gameWidth, this.gameHeight);
