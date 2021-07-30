@@ -138,7 +138,7 @@ class inputhandler {
                     break;
             }
         });
-        document.addEventListener('keyup', event => {
+         document.addEventListener('keyup', event => {
             switch (event.keyCode) {
                 case 37:
                     if (paddle.speed < 0)
