@@ -52,7 +52,7 @@ class GAME {
             ctx.font = "50px Arial";
             ctx.fillStyle = "white";
             ctx.textAlign = "center";
-            ctx.fillText(" PRESS SPACEBAR TO START and use esc button to pause the game", this.gameWidth / 2, this.gameHeight / 2);
+            ctx.fillText(" PRESS SPACEBAR TO START and Press esc to pause", this.gameWidth / 2, this.gameHeight / 2);
         }
         else if (this.gamestate == GAMESTATE.gameover) {
             ctx.rect(0, 0, this.gameWidth, this.gameHeight);
